@@ -5,3 +5,12 @@ body {
 img {
 	max-width: 20px;
 }
+
+nav li a:hover {
+	color: red;
+	background-color: black;
+}
+
+nav li a:active {
+	padding: 0 5px 0 5px;
+}
