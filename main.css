@@ -14,3 +14,31 @@ nav li a:hover {
 nav li a:active {
 	padding: 0 5px 0 5px;
 }
+
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.blog {
+	margin: 1%;
+	width: 400px;
+	border: 2px solid slategray;
+}
+
+.entry > * {
+	margin: 0;
+	text-align: center;
+}
+
+.entry {
+	padding: 2%;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Zilla Slab', serif;
+}
